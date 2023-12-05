@@ -265,7 +265,7 @@ $ vvdict rereg list.txt
 起動
 
 ```bash
-$ sbin/seqreadd start
+$ sbin/seqread start
 ```
 
 起動すると `seqread.rb` が実行されます。`seqread.rb` 実行中は `seqread` コマンドで読み上げ文字列の登録ができます。(`var/run/seqread.sock` に対する書き込み権限が必要なことに注意ください)
